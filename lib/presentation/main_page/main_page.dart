@@ -18,7 +18,7 @@ class MainPage extends StatelessWidget {
 
 // Find the ScaffoldMessenger in the widget tree
 // and use it to show a SnackBar.
-ScaffoldMessenger.of(context).showSnackBar(snackBar);
+            ScaffoldMessenger.of(context).showSnackBar(snackBar);
           },
           child: Scaffold(
             appBar: AppBar(
@@ -41,7 +41,7 @@ ScaffoldMessenger.of(context).showSnackBar(snackBar);
                     },
                   ),
                   const Text(
-                    'You have pushed the secnd  button this many times:',
+                    'You have pushed the secnd  buttonjkjkn this many times:',
                   ),
                   BlocBuilder<MainPageBloc, MainPageState>(
                     buildWhen: (previous, current) =>
